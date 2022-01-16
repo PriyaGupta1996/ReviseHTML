@@ -1,0 +1,67 @@
+<!DOCTYPE html>  
+<!-- Called doctype declaration and it says it HTML 5, in prev version it was very long.
+HTML is not a case sentitive language.  -->
+<!-- Note: Browser does not care about formatting of the code and also ignore spaces. -->
+
+<html>
+    <head>
+        <!-- head tag to give browser information about the page -->
+
+        <!-- http://127.0.0.1:5500/index.html
+        http: protocol used
+        127.0.0.1 local computer
+        5500 where the server is listening, port no.
+        index.html resouce Page -->
+
+        <title>Coffee With Priya</title>
+        <style>
+            
+
+            /* element { 
+                property 1 : value,
+                property 2 : value,
+                property 3 : value,
+            } */
+
+            img {
+                width: 300px; 
+                height: 300px;
+                border-radius: 150px;
+                float:left;
+                margin-right:50px;
+                /* object-fit: cover; to avoid squashing of the image */
+            }
+            p.heading{ 
+
+                /* element.classname or .classname */
+
+                font-weight:bold;
+            }
+        </style>
+
+
+        <body>
+             <img src="./images/coffee.jpeg" alt="Not available"> 
+             <!-- img tag cannot have child tags hence no closing tag  -->
+             <!-- img alt is used by SEO
+             if network fails user gets to know what was about to load-->
+
+             <p class="heading">@CoffeeWithPriya</p>
+             <p class="message">Hey , ;) </p>
+             <a href="./headInfo.html" target="_blank">Move here to learn more.</a> 
+             <a href="mailto:priyagupta.ynr@gmail.com">Email me</a>
+             <!-- target for new tabs -->
+             <!-- Difference Between links and hyperlinks
+             link is the url or address
+             hyperlink is the clickable text which user clicks to go to the link -->
+
+            
+
+<!-- href is hypertext reference -->
+        </body>
+    </head>
+</html>
+
+
+ 
+ 
